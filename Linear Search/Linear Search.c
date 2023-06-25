@@ -2,23 +2,25 @@
 
 #include <stdio.h>
 
-int LinearSearch (int arr[5], int size, int x){
-    for(int i = 0; i < size; i++){
-    if(arr[i] == x)
-        return 1;
-    else 
-        return -1;
-}
+int search (int arr[], int N, int x){
+    for(int i = 0; i < N; i++)
+        if(arr[i] == x)
+            return i;
+    return -1;
 }
 
-int main(){
-    int arr[5] = {10,2,30,5,20};
-    int x = 20;
-    int size = sizeof(arr[5]);
-    int res = LinearSearch(arr, size, x);
-    (res == 1) ? printf("Element found at %d position",res) : printf("Element not in array");
-    return 0;
+// Driver code
+int main(void)
+{
+	int arr[] = { 2, 3, 4, 10, 40 };
+	int x = 10;
+	int N = sizeof(arr) / sizeof(arr[0]);
 
+	// Function call
+	int result = search(arr, N, x);
+	(result == -1)
+		? printf("Element is not present in array")
+		: printf("Element is present at index %d", result);
+	return 0;
 }
-
 
