@@ -1,4 +1,6 @@
 // C program to implement iterative Binary Search
+//requires a sorted array 
+//find mid elem, compare, ignore the rest
 #include <stdio.h>
 
 //binary search function.
