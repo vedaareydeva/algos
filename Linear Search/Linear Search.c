@@ -1,4 +1,5 @@
 //code to implement linear search
+//in linear search you just run a for loop to find the element and then return its location.
 
 #include <stdio.h>
 
