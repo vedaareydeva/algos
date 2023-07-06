@@ -1,4 +1,5 @@
 // Optimized implementation of Bubble sort
+//run loop till second last, inner loop compare adjacent elements
 #include <stdbool.h>
 #include <stdio.h>
 
