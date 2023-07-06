@@ -1,4 +1,8 @@
 // C program for insertion sort
+//compare 2 elements, put in the right place
+//compare third element with first 2 and insert accordingly
+//compare 4th with first 3 etc...
+
 #include <math.h>
 #include <stdio.h>
 
