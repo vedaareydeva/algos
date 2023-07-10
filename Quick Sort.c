@@ -1,4 +1,7 @@
 // C code to implement quicksort
+//choose pivot element (usually first or last)
+//follow divide and conquer strategy
+//combine all the sub-arrays
 
 #include <stdio.h>
 
